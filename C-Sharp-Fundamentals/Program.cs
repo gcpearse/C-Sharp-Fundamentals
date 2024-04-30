@@ -13,6 +13,7 @@ class Program
         case "2": TextDataTypes.Program.MainFn(); break;
         case "3": TypeConversion.Program.MainFn(); break;
         case "4": Booleans.Program.MainFn(); break;
+        case "5": Operations.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
