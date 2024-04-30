@@ -31,6 +31,7 @@ class Program
         case "20": Arrays.Program.MainFn(); break;
         case "21": ArrayMethods.Program.MainFn(); break;
         case "22": Lists.Program.MainFn(); break;
+        case "23": Dictionaries.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
