@@ -2,7 +2,7 @@ namespace HelloWorld;
 
 class Program
 {
-  public static void HelloWorld()
+  public static void MainFn()
   {
     Console.WriteLine("Hello, world!");
   }
