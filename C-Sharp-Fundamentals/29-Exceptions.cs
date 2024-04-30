@@ -1,32 +1,31 @@
-namespace Exceptions
+namespace Exceptions;
+
+class Program
 {
-  class Program
+  public static void MainFn()
   {
-    public static void MainFn()
+    while (true)
     {
-      while (true)
+      try
       {
-        try
-        {
-          Console.Write("Enter a number: ");
-          int num = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter a number: ");
+        int num = Convert.ToInt32(Console.ReadLine());
 
-          Console.WriteLine($"Your number is {num}.");
+        Console.WriteLine($"Your number is {num}.");
 
-          break;
-        }
-        catch (FormatException)
-        {
-          Console.WriteLine("Please enter a number.");
-        }
-        catch (OverflowException)
-        {
-          Console.WriteLine("Please enter a number smaller than 2,147,483,648.");
-        }
-        catch (Exception e)
-        {
-          Console.WriteLine($"Error: {e.Message}");
-        }
+        break;
+      }
+      catch (FormatException)
+      {
+        Console.WriteLine("Please enter a number.");
+      }
+      catch (OverflowException)
+      {
+        Console.WriteLine("Please enter a number smaller than 2,147,483,648.");
+      }
+      catch (Exception e)
+      {
+        Console.WriteLine($"Error: {e.Message}");
       }
     }
   }
