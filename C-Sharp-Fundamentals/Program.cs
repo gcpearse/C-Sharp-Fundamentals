@@ -30,6 +30,7 @@ class Program
         case "19": VerifyPassword.Program.MainFn(); break;
         case "20": Arrays.Program.MainFn(); break;
         case "21": ArrayMethods.Program.MainFn(); break;
+        case "22": Lists.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
