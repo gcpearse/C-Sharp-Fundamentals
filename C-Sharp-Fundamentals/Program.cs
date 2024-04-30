@@ -35,6 +35,7 @@ class Program
         case "24": OddEvenSplit.Program.MainFn(); break;
         case "25": MultiplesArray.Program.MainFn(); break;
         case "26": Functions.Program.MainFn(); break;
+        case "27": TriangleArea.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
