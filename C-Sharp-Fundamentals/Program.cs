@@ -24,6 +24,7 @@ class Program
         case "13": TryParse.Program.MainFn(); break;
         case "14": TimesTable.Program.MainFn(); break;
         case "15": FizzBuzz.Program.MainFn(); break;
+        case "16": StringFormatting.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
