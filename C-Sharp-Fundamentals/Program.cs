@@ -20,6 +20,7 @@ class Program
         case "9": SwitchStatements.Program.MainFn(); break;
         case "10": ForLoops.Program.MainFn(); break;
         case "11": WhileLoops.Program.MainFn(); break;
+        case "12": NumericFormatting.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
