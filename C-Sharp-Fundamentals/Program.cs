@@ -15,6 +15,7 @@ class Program
         case "4": Booleans.Program.MainFn(); break;
         case "5": Operations.Program.MainFn(); break;
         case "6": Constants.Program.MainFn(); break;
+        case "7": ConsoleIO.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
