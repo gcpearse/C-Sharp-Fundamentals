@@ -28,6 +28,7 @@ class Program
         case "17": Strings.Program.MainFn(); break;
         case "18": ReverseString.Program.MainFn(); break;
         case "19": VerifyPassword.Program.MainFn(); break;
+        case "20": Arrays.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
