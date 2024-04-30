@@ -11,6 +11,7 @@ class Program
         case "0": HelloWorld.Program.MainFn(); break;
         case "1": NumericDataTypes.Program.MainFn(); break;
         case "2": TextDataTypes.Program.MainFn(); break;
+        case "3": TypeConversion.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
