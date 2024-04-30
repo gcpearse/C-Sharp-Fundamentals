@@ -8,7 +8,8 @@ class Program
     {
       switch (args[0])
       {
-        case "0": HelloWorld.Program.HelloWorld(); break;
+        case "0": HelloWorld.Program.MainFn(); break;
+        case "1": NumericDataTypes.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
