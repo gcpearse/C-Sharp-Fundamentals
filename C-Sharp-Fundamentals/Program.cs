@@ -26,6 +26,7 @@ class Program
         case "15": FizzBuzz.Program.MainFn(); break;
         case "16": StringFormatting.Program.MainFn(); break;
         case "17": Strings.Program.MainFn(); break;
+        case "18": ReverseString.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
