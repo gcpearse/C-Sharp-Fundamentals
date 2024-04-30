@@ -12,6 +12,7 @@ class Program
         case "1": NumericDataTypes.Program.MainFn(); break;
         case "2": TextDataTypes.Program.MainFn(); break;
         case "3": TypeConversion.Program.MainFn(); break;
+        case "4": Booleans.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
