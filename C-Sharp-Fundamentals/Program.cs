@@ -36,6 +36,7 @@ class Program
         case "25": MultiplesArray.Program.MainFn(); break;
         case "26": Functions.Program.MainFn(); break;
         case "27": TriangleArea.Program.MainFn(); break;
+        case "28": SumOfNumbers.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
