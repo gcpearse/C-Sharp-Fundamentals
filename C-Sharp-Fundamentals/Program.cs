@@ -22,6 +22,7 @@ class Program
         case "11": WhileLoops.Program.MainFn(); break;
         case "12": NumericFormatting.Program.MainFn(); break;
         case "13": TryParse.Program.MainFn(); break;
+        case "14": TimesTable.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
