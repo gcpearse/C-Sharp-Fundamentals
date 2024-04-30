@@ -18,6 +18,7 @@ class Program
         case "7": ConsoleIO.Program.MainFn(); break;
         case "8": IfStatements.Program.MainFn(); break;
         case "9": SwitchStatements.Program.MainFn(); break;
+        case "10": ForLoops.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
