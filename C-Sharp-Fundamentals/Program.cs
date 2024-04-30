@@ -33,6 +33,7 @@ class Program
         case "22": Lists.Program.MainFn(); break;
         case "23": Dictionaries.Program.MainFn(); break;
         case "24": OddEvenSplit.Program.MainFn(); break;
+        case "25": MultiplesArray.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
