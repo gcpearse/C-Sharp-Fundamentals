@@ -38,6 +38,7 @@ class Program
         case "27": TriangleArea.Program.MainFn(); break;
         case "28": SumOfNumbers.Program.MainFn(); break;
         case "29": Exceptions.Program.MainFn(); break;
+        case "30": CustomTryParse.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
