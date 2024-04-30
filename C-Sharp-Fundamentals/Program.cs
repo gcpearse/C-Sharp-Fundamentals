@@ -41,6 +41,7 @@ class Program
         case "30": CustomTryParse.Program.MainFn(); break;
         case "31": Structures.Program.MainFn(); break;
         case "32": Classes.Program.MainFn(); break;
+        case "33": ClassMethods.Program.MainFn(); break;
         default: Console.WriteLine("Invalid argument."); break;
       }
     }
