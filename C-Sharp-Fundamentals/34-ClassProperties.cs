@@ -68,7 +68,7 @@ If no additional logic is required, we can use auto-implemented properties. Take
 
 This can be replaced with the following code:
 
-  public string Name { get; set;}
+  public string Name { get; set; }
 
 Going forward, favour properties and auto-implemented properties over getters and setters.
 
